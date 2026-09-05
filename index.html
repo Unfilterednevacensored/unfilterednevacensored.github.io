@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,146 +11,189 @@
 
 <body>
 
-<header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#writing">Writing</a>
-        <a href="#cv">CV</a>
-    </nav>
-</header>
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
 
-
-<main>
-
-    <!-- INTRO -->
-    <section class="intro">
-        <h1>Prasiddha</h1>
-
-        <p class="subtitle">
-            Mathematics · Machine Learning · Neural Computation
-        </p>
-
-        <p>
-            Undergraduate student at Howard University interested in
-            the mathematical foundations of machine learning,
-            neural computation, and artificial intelligence.
-        </p>
-
-        <div class="links">
-            <a href="https://github.com/tpras07">GitHub</a>
-            <a href="mailto:YOUR_EMAIL@example.com">Email</a>
-            <a href="cv.pdf">CV</a>
+        <div class="name">
+            <a href="/">Prasiddha</a>
         </div>
-    </section>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#writing">Writing</a>
+            <a href="cv.pdf">CV</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <a href="https://github.com/tpras07" target="_blank">
+                GitHub
+            </a>
+
+            <a href="mailto:YOUR_EMAIL@example.com">
+                Email
+            </a>
+        </div>
+
+    </aside>
 
 
-    <!-- ABOUT -->
-    <section id="about">
-        <h2>About</h2>
+    <!-- MAIN CONTENT -->
+    <main>
 
-        <p>
-            I am a mathematics student at Howard University.
-            My interests lie broadly at the intersection of mathematics,
-            machine learning, and computational neuroscience.
-        </p>
+        <section class="home" id="about">
 
-        <p>
-            I am particularly interested in understanding learning
-            algorithms from a mathematical perspective and in developing
-            principled models of neural computation.
-        </p>
-    </section>
+            <div class="intro">
 
+                <p class="eyebrow">
+                    Mathematics · Machine Learning · Neural Computation
+                </p>
 
-    <!-- RESEARCH -->
-    <section id="research">
-        <h2>Research</h2>
+                <h1>
+                    Studying the mathematics
+                    behind intelligent systems.
+                </h1>
 
-        <article>
-            <h3>Spiking Neural Networks</h3>
+                <p class="description">
+                    I am an undergraduate mathematics student at
+                    <a href="https://howard.edu/" target="_blank">
+                        Howard University
+                    </a>.
+                    My interests lie at the intersection of
+                    <a href="#research">machine learning</a>,
+                    mathematics, and computational neuroscience.
+                </p>
 
-            <p>
-                Studying spiking neural networks, their dynamics,
-                learning mechanisms, and connections to biological
-                computation.
-            </p>
+                <p class="description">
+                    Currently, I am exploring
+                    <a href="#research">spiking neural networks</a>
+                    and the mathematical foundations of learning.
+                    I also enjoy working on
+                    <a href="#projects">computational projects</a>
+                    and writing about mathematics.
+                </p>
 
-            <p class="meta">
-                Howard University · 2026–
-            </p>
-        </article>
+                <div class="quick-links">
+                    <a href="#research">Research →</a>
+                    <a href="#projects">Projects →</a>
+                    <a href="cv.pdf">Curriculum Vitae →</a>
+                </div>
 
-        <!-- ADD MORE RESEARCH HERE -->
-
-    </section>
-
-
-    <!-- PROJECTS -->
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <article>
-            <h3>
-                <a href="YOUR_GITHUB_REPO_URL">
-                    Project Title
-                </a>
-            </h3>
-
-            <p>
-                A short description of what the project does,
-                the mathematical or computational ideas involved,
-                and why you built it.
-            </p>
-        </article>
-
-        <!-- ADD MORE PROJECTS HERE -->
-
-    </section>
+            </div>
 
 
-    <!-- WRITING -->
-    <section id="writing">
-        <h2>Writing</h2>
+            <div class="portrait">
+                <img src="images/profile.jpg" alt="Portrait of Prasiddha">
+            </div>
 
-        <article>
-            <h3>
-                <a href="YOUR_LINK">
-                    Title of Note or Article
-                </a>
-            </h3>
-
-            <p class="meta">
-                September 2026
-            </p>
-
-            <p>
-                A short description of the note.
-            </p>
-        </article>
-
-        <!-- ADD MORE WRITING HERE -->
-
-    </section>
+        </section>
 
 
-    <!-- CV -->
-    <section id="cv">
-        <h2>CV</h2>
+        <!-- RESEARCH -->
+        <section class="page-section" id="research">
 
-        <p>
-            <a href="cv.pdf">View my CV</a>
-        </p>
-    </section>
+            <p class="section-number">01</p>
 
-</main>
+            <h2>Research</h2>
+
+            <div class="entry">
+
+                <h3>Spiking Neural Networks</h3>
+
+                <p>
+                    Studying the dynamics and learning mechanisms of
+                    spiking neural networks, with an interest in their
+                    mathematical structure and biological motivation.
+                </p>
+
+                <span class="meta">
+                    Howard University · 2026–
+                </span>
+
+            </div>
 
 
-<footer>
-    <p>© 2026 Prasiddha</p>
-</footer>
+            <div class="entry">
+
+                <h3>Future Research</h3>
+
+                <p>
+                    This space will eventually contain ongoing and
+                    completed research projects.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="page-section" id="projects">
+
+            <p class="section-number">02</p>
+
+            <h2>Projects</h2>
+
+            <div class="entry">
+
+                <h3>
+                    <a href="YOUR_GITHUB_REPO">
+                        Neural Network Experiments
+                    </a>
+                </h3>
+
+                <p>
+                    Experiments with neural networks and their
+                    underlying mathematics.
+                </p>
+
+            </div>
+
+
+            <div class="entry">
+
+                <h3>
+                    <a href="YOUR_GITHUB_REPO">
+                        Spiking Neural Network Experiments
+                    </a>
+                </h3>
+
+                <p>
+                    Implementations and experiments involving
+                    spiking neural networks.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- WRITING -->
+        <section class="page-section" id="writing">
+
+            <p class="section-number">03</p>
+
+            <h2>Writing</h2>
+
+            <div class="entry">
+
+                <h3>
+                    <a href="YOUR_LINK">
+                        Mathematical Notes
+                    </a>
+                </h3>
+
+                <p>
+                    Notes, explanations, and explorations in
+                    mathematics and machine learning.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
 </html>
-```
